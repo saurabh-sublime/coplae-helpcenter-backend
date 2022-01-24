@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "help_center_posts_plural",
+  "info": {
+    "singularName": "help-center-posts-singular",
+    "pluralName": "help-center-posts-plural",
+    "displayName": "helpCenterPosts"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "text"
+    },
+    "publishedOn": {
+      "type": "datetime"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
